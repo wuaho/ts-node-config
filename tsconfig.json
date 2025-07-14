@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // Base options: module, language and environment
+    "target": "ESNext", // People recommend using one value over 'esnext' for stability.
+    "lib": [
+      "ESNext"
+    ], // Answer to the question: does your code run in the DOM?
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "rewriteRelativeImportExtensions": true,
+    // Type Checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+  }
+}
